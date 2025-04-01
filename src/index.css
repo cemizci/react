@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+body {
+    font-family: "DM Sans", sans-serif;
+}
+
+.paginate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paginate li {
+    width: 38px;
+    height: 30px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+}
+
+.paginate li:hover {
+    background-color: rgb(238, 235, 235);
+    border-radius: 5px;
+}
